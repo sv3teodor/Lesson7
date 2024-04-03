@@ -2,7 +2,6 @@ import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import com.codeborne.selenide.logevents.SelenideLogger;
-import io.qameta.allure.Epic;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.apache.commons.lang3.tuple.Triple;
 import org.junit.jupiter.api.*;
@@ -20,7 +19,6 @@ import static org.openqa.selenium.By.className;
 import static org.openqa.selenium.By.linkText;
 
 public class LessonSixSelenide {
-    @Epic("Tests for lesson 6")
 
     @BeforeAll
     public static void setUp() {
@@ -122,7 +120,6 @@ public class LessonSixSelenide {
                     }));
         });
         return result;
-
     }
 
 }
