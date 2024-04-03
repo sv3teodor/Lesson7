@@ -22,7 +22,6 @@ public class LessonSixSelenide {
 
     @BeforeAll
     public static void setUp() {
-        System.setProperty("allure.results.directory", "D:\\T1\\out-lesson5\\build");
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide()
                 .screenshots(true)
                 .savePageSource(true));
